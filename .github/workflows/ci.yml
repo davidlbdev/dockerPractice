@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Vowel Frequency Analyzer
-        uses: ./.github/actions/vowel-frequency-analyzer
+        uses: ./.github/actions/vowel-frequency-analyser
         with:
           file: data.txt
         env:
